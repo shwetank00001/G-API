@@ -25,7 +25,6 @@ const Forms = () => {
     <form>
         <input type="name" placeholder='First Name' onChange={handleFirstName} />
         <input type="name" placeholder='Last Name' onChange={handleLastName}/>
-
     </form>
   )
 }

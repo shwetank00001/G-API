@@ -7,6 +7,7 @@ export default function FormTest() {
         email:"",
         reactSkills:false
     })
+    
     function handleChange(event){
         const {name,type,value,checked} = event.target
         setData(function(item){
